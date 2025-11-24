@@ -1,0 +1,10 @@
+C:\Users\Mrdar\OneDrive\Escritorio\c# prog 2\prueba de crud\prueba de crud\bin\Debug\prueba de crud.exe.config
+C:\Users\Mrdar\OneDrive\Escritorio\c# prog 2\prueba de crud\prueba de crud\bin\Debug\prueba de crud.exe
+C:\Users\Mrdar\OneDrive\Escritorio\c# prog 2\prueba de crud\prueba de crud\bin\Debug\prueba de crud.pdb
+C:\Users\Mrdar\OneDrive\Escritorio\c# prog 2\prueba de crud\prueba de crud\obj\Debug\prueba de crud.csproj.AssemblyReference.cache
+C:\Users\Mrdar\OneDrive\Escritorio\c# prog 2\prueba de crud\prueba de crud\obj\Debug\prueba_de_crud.Form1.resources
+C:\Users\Mrdar\OneDrive\Escritorio\c# prog 2\prueba de crud\prueba de crud\obj\Debug\prueba_de_crud.Properties.Resources.resources
+C:\Users\Mrdar\OneDrive\Escritorio\c# prog 2\prueba de crud\prueba de crud\obj\Debug\prueba de crud.csproj.GenerateResource.cache
+C:\Users\Mrdar\OneDrive\Escritorio\c# prog 2\prueba de crud\prueba de crud\obj\Debug\prueba de crud.csproj.CoreCompileInputs.cache
+C:\Users\Mrdar\OneDrive\Escritorio\c# prog 2\prueba de crud\prueba de crud\obj\Debug\prueba de crud.exe
+C:\Users\Mrdar\OneDrive\Escritorio\c# prog 2\prueba de crud\prueba de crud\obj\Debug\prueba de crud.pdb
