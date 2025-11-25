@@ -15,9 +15,7 @@ namespace prueba_de_crud
         public int Precio { get; set; }
 
         public int Stock { get; set; }
-        //public int Id { get; internal set; }
 
-        //public int MostrarRegistro { get; set; }
 
         public Personas1() { }
 
@@ -29,7 +27,7 @@ namespace prueba_de_crud
             Marca = marca;
             Precio = precio;
             Stock = stock;
-           // MostrarRegistro = MostrarRegistro;
+       
         }
 
      
