@@ -43,9 +43,8 @@ namespace prueba_de_crud
 
 
 
-                //  if (dataGridView2.SelectedRows.Count > 1)
-
-                // {
+ 
+          
 
                 // Comprobamos si hay un ID para determinar si es una inserción o una actualización
                 int result = 0;
@@ -66,9 +65,9 @@ namespace prueba_de_crud
                 // Comprobamos si el resultado fue exitoso y mostramos un mensaje
                 if (result > 0)
                 {
-                    // MessageBox.Show("Exito guardado/actualizado");
+                    
                 }
-                //}
+                
                 else
                 {
                     MessageBox.Show("No guardado Ni Actualizado");
@@ -84,7 +83,7 @@ namespace prueba_de_crud
 
         private void dataGridView2_SelectionChanged(object sender, EventArgs e)
         {
-            //if (dataGridView1.CurrentRow == null)
+      
             {
                 // Esto hace que se carguen los datos en los Textboxes
                 textBox11.Text = Convert.ToString(dataGridView2.CurrentRow.Cells["Id"].Value);
