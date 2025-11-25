@@ -23,7 +23,7 @@ namespace prueba_de_crud
                     string query = "insert into Productos (Nombre,Descripcion,Marca,Precio,Stock) values( @Nombre, @Descripcion, @Marca, @Precio, @Stock)";
                     SqlCommand comando = new SqlCommand(query, conexion);
 
-                   // comando.Parameters.AddWithValue("@Id", persona1.Id);
+                   
                     comando.Parameters.AddWithValue("@Nombre", persona1.Nombre);
                     comando.Parameters.AddWithValue("@Descripcion", persona1.Descripcion);
                     comando.Parameters.AddWithValue("@Marca", persona1.Marca);
@@ -89,12 +89,7 @@ namespace prueba_de_crud
                 comando.Parameters.AddWithValue("@Marca", personas1.Marca);
                 comando.Parameters.AddWithValue("@Precio", personas1.Precio);  // Asegúrate que Precio sea del tipo adecuado
                 comando.Parameters.AddWithValue("@Stock", personas1.Stock);
-                //comando.Parameters.AddWithValue("@Id", personas1.id);
-                //string query = "update Productos set nombre='"+personas1.Nombre+"',                             
-
-                //conexion.Open();
-              
-                //return result;
+               
                 result = comando.ExecuteNonQuery();
                 conexion.Close();
             }
