@@ -14,16 +14,14 @@ namespace prueba_de_crud
     {
         public static SqlConnection obtenerConexion()
         {
-            //SqlConnection conexion = new SqlConnection("Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=Productos;Data Source=Darwin");
-            //conexion.Open();
-            // return conexion;
 
 
+            //Conexion local a la base de datos con Sql Server  con credenciales previamente creadas
             SqlConnection conexion = new SqlConnection(@"Server=DARWIN; Database=personas; User Id=sa; Password=1234;");
             {
                 conexion.Open();
-                //MessageBox.Show("rejjre");
-                // Código para realizar la consulta...
+            
+                // 
                 return conexion ;
             }
 
